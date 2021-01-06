@@ -9,14 +9,29 @@
     <title>Movies</title>
 </head>
 <body>
-    <header class="main-header">
-        <section class="main-header__logo">
-            <figure>
-                <img src="./assets/images/popcorn.png" alt="Logo de Movies.es">
-            </figure>
-            <p>Movi.es</p>
-        </section>
-        <nav class="main-header__nav">
+    <main>
+        <header class="main-header">
+            <section class="main-header__logo">
+                <figure>
+                    <img src="./assets/images/popcorn.png" alt="Logo de Movies.es">
+                </figure>
+                <p>Movi.es</p>
+            </section>
+            <section class="main-header__input">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                <input type="text" placeholder="Busca tu película favorita">
+                </div>
+            </section>
+            <section class="main-header__user">
+                <p>Bambi Rodríguez</p>
+                <figure>
+                    <img src="./assets/images/bambi.jpg" alt="Icono de usuario">
+                </figure>
+                <i class="fas fa-caret-down"></i>
+            </section>
+        </header>
+        <nav class="nav">
             <div class="nav-items">
                 <a href="">
                     <i class="fas fa-home"></i>
@@ -36,29 +51,47 @@
                 </a>
             </div>
         </nav>
-        <section class="main-header__user">
-            <input type="text" placeholder="Busca tu película favorita">
-            <p>Bambi Rodríguez</p>
-            <figure>
-                <img src="./assets/images/bambi.jpg" alt="Icono de usuario">
-            </figure>
-        </section>
-    </header>
-    <main>
         <section class="main-container">
-            <div>
-                <p>Ahora en el cine</p>
-            </div>
-            <article>
-                <a href="">
-                    <figure>
-                        <img src="" alt="">
-                    </figure>
-                    <span>
-                        <p>The Secret Life of Pets</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi minus officiis, porro sit fuga odit nemo temporibus. Perferendis,</p>
-                    </span>
-                </a>
+            <p class="main-container__titles">Ahora en el cine</p>
+            <article class="main-container__articles">
+                <div class="post-container">
+                    <a href="">
+                        <figure>
+                            <img src="./assets/images/beastars.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <p>Beastars</p>
+                            <p>En un mundo poblado por animales antropomórficos, los herbívoro y los carnívoros conviven entre sí.</p>
+                        </figcaption>
+                    </a>
+                    <a href="">
+                        <figure>
+                            <img src="./assets/images/better-call-saul.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <p>Better Call Saul</p>
+                            <p>s un spin-off centrado en el personaje de James 'Jimmy' McGuill (Bob Odenkirk), antes de que asuma la identidad de Saul Goodman, un abogado corrupto.</p>
+                        </figcaption>
+                    </a>
+                    <a href="">
+                        <figure>
+                            <img src="./assets/images/bob-esponja.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <p>Bob Esponja: Al Rescate</p>
+                            <p>La amistad es muy importante para Bob Esponja y no permitirá que se lleven a su amigo, ¡ni siquiera el rey de los mares!</p>
+                        </figcaption>
+                    </a>
+                    <a href="">
+                        <figure>
+                            <img src="./assets/images/it.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <p>IT (Eso)</p>
+                            <p>Cuando los niños de la ciudad empiezan a desparecer, un grupo de inadaptados deberá enfrentar sus miedos y luchar contra un terrorífico payaso asesino.</p>
+                        </figcaption>
+                    </a>
+                </div>
             </article>
         </section>
     </main>
