@@ -1,6 +1,9 @@
 .main-header__logo p {
     display: block; 
 }
+.nav-items a p {
+    font-size: 1.2rem;
+}
 .post-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px 20px;

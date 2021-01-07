@@ -18,6 +18,9 @@ main {
     position: fixed;
     margin-top: 20px;
 }
+.nav-items a p {
+    font-size: 1.2rem;
+}
 .main-container {
     box-shadow: inset 0px 102px 7px -100px rgba(0,0,0,0.23);
 }
