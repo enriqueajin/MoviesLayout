@@ -1,0 +1,40 @@
+main {
+    grid-template: auto / 8% 1fr;
+    grid-template-areas: "header header"
+                         "nav contenido";
+}
+.main-header__logo p {
+    font-size: 3.5rem;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-items {
+    width: 64.16px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    margin-top: 20px;
+}
+.main-container {
+    box-shadow: inset 0px 102px 7px -100px rgba(0,0,0,0.23);
+}
+.post-container a figcaption {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+    padding: 20px;
+    color: white;
+    background: rgba(252,113,109, .8);
+}
+.post-container a figcaption p:nth-of-type(2){
+    font-size: 1.8rem;
+}
+a:hover figcaption {
+    display: block;
+}
